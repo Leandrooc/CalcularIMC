@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(238, 201, 132);
+}
+
+.container{
+    max-width: 600px;
+    background: linear-gradient(rgb(112, 137, 250), rgb(81, 63, 248));
+    margin: auto;
+    margin-top: 150px;
+    padding: 30px;
+    border: 3px solid yellow;
+    box-shadow: 0 0 1em rgb(172, 146, 0);
+
+}
+
+input{
+    display: block;
+    padding: 5px;
+    border: 3px solid black;
+    margin: auto;
+    width: 350px;
+    
+}
+
+#peso{
+    margin-top: 70px;
+    margin-left: 120px;
+}
+
+#altura{
+    margin-top: 25px;
+    margin-left: 120px;
+
+}
+
+button{
+    margin-left: 190px;
+    margin-top: 30px;
+    
+
+    padding: 20px;
+    display: block;
+    width: 200px;
+    border-radius: 25px;
+}
+
+h1{
+    margin: 0;
+    margin-left: 150px;
+    color: rgb(0, 0, 0);
+}
+
+#imc{
+    text-align: center;
+    font-size: 50px;
+}
+
+@media (max-width:768px) {
+    .container{
+        max-width: 300px;
+        margin-top: 0;
+
+    }
+    #peso{
+        margin: 0;
+        width: 220px;
+        margin-left: 20px;
+
+    }
+    #altura{
+        margin: 0;
+        margin-top: 20px;
+        width: 220px;
+        margin-left: 20px;
+
+    }
+    h1{
+        font-size: 40px;
+        margin-left: 50px;
+        margin-bottom: 30px;
+    }
+    button{
+        margin-left: 45px;
+        width: 200px;
+        font-size: 25px;
+    }
+    input{
+        font-size: 25px;
+    }
+}
+
+@media (max-width:280px) {
+    .container{
+        max-width: 300px;
+        margin-top: 50px;
+
+    }
+    #peso{
+        margin: 0;
+        width: 180px;
+    }
+    #altura{
+        margin: 0;
+        margin-top: 15px;
+        width: 180px;
+    }
+    h1{
+        font-size: 30px;
+        margin-left: 5px;
+
+    }
+    button{
+
+        width: 140px;
+        font-size: 15px;
+        margin-left: 20px;
+
+
+    }
+}
